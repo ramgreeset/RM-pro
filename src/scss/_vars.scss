@@ -8,5 +8,16 @@
   --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
 
   // colors
-  --light-color: #fff;
+  --white: #fff;
+  --black: #000;
+  --dark: #2A2A2A;
+  --light: #DADADA;
+  --border: #DFDFDF;
+  --gray: #A5A5A5;
+  --primary: #FDC500;
+  --secondary: #F6F4F4;
+
+  // other
+  --border-radius: 4px;
+  --transition: .3s ease-in-out;
 }

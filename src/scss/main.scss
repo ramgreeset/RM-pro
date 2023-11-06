@@ -5,12 +5,11 @@
 @import "settings";
 
 // подключения компонентов страницы
+@import "./components/button";
+@import "./components/input";
 @import "./components/header";
-
-// тестовые стили, удалите их
-.page__body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: var(--vh);
-}
+@import "./components/navbar";
+@import "./components/social";
+@import "./components/phones";
+@import "./components/search";
+@import "./components/logo";

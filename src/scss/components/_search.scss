@@ -1,0 +1,30 @@
+.search {
+  display: flex;
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+
+  &__field {
+    border-radius: 0;
+    border-top: none;
+    border-bottom: none;
+  }
+
+  &__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &--left {
+      border-radius: var(--border-radius) 0 0 var(--border-radius);
+    }
+
+    &--right {
+      border-radius: 0 var(--border-radius) var(--border-radius) 0;
+    }
+  }
+
+  &__icon {
+    width: 16px;
+    height: 16px;
+  }
+}

@@ -1,3 +1,76 @@
 <header class="header">
-  <div class="container"></div>
+  <div class="header__top">
+    <div class="container">
+      <div class="header__top-inner">
+        <nav class="navbar">
+          <ul class="navbar__list">
+            <li class="navbar__item">
+              <a class="navbar__link link" href="#">О компании</a>
+            </li>
+            <li class="navbar__item">
+              <a class="navbar__link link" href="#">Заказ и доставка</a>
+            </li>
+            <li class="navbar__item">
+              <a class="navbar__link link" href="#">Оптовикам</a>
+            </li>
+            <li class="navbar__item">
+              <a class="navbar__link link" href="#">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__info">
+          <div class="social">
+            <a class="social__item link" href="#">
+              <svg class="social__icon">
+                <use href="img/sprite.svg#whatsapp"></use>
+              </svg>
+            </a>
+            <a class="social__item link" href="#">
+              <svg class="social__icon">
+                <use href="img/sprite.svg#telegram"></use>
+              </svg>
+            </a>
+          </div>
+          <div class="phones">
+            <a class="phones__item link" href="tel:89998472877">8(999)847-28-77</a>
+            <a class="phones__item link" href="tel:89996743892">8(999)674-38-92</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="header__bottom">
+    <div class="container">
+      <div class="header__bottom-inner">
+        <a class="logo" href="#">
+          <img src="img/logo.svg" alt="RM PRO">
+        </a>
+        <div class="search">
+          <button class="search__btn search__btn--left btn btn--secondary">
+            <svg class="search__icon">
+              <use href="img/sprite.svg#list"></use>
+            </svg>
+          </button>
+          <input class="search__field input" type="text" placeholder="Поиск товаров по сайту">
+          <button class="search__btn search__btn--right btn btn--primary">
+            <svg class="search__icon">
+              <use href="img/sprite.svg#search"></use>
+            </svg>
+          </button>
+        </div>
+        <div class="header__cart">
+          <button class="header__cart-btn btn btn--secondary">
+            <svg class="header__cart-icon">
+              <use href="img/sprite.svg#cart"></use>
+            </svg>
+          </button>
+          <div class="header__cart-info">
+            <span>30 000 000 ₽</span>
+            <span>8 000 товаров</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </header>

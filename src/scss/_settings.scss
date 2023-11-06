@@ -19,9 +19,11 @@ html {
   min-width: 320px;
   min-height: 100%;
   font-size: 16px;
+  line-height: 1.4;
 }
 
 img {
+  display: block;
   height: auto;
   max-width: 100%;
   object-fit: cover;
@@ -29,6 +31,7 @@ img {
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 .site-container {
@@ -104,4 +107,12 @@ a {
 
 .page--ios .dis-scroll {
   position: relative;
+}
+
+.link {
+  transition: opacity var(--transition);
+
+  &:hover {
+    opacity: .8;
+  }
 }
