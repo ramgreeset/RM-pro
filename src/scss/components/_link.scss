@@ -1,0 +1,7 @@
+.link {
+    transition: opacity var(--transition);
+  
+    &:hover {
+      opacity: .8;
+    }
+  }

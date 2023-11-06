@@ -1,12 +1,14 @@
 .social {
   display: flex;
 
-  &:after {
-    content: '';
-    height: 24px;
-    width: 1px;
-    margin: auto 16px;
-    background-color: var(--white);
+  &--header {
+    &:after {
+      content: '';
+      height: 24px;
+      width: 1px;
+      margin: auto 16px;
+      background-color: var(--white);
+    }
   }
 
   &__item {

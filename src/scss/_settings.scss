@@ -17,6 +17,7 @@ html {
 .page__body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
+  height: 100%;
   min-width: 320px;
   min-height: 100%;
   font-size: 16px;
@@ -36,7 +37,14 @@ a {
 }
 
 .site-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
   overflow: hidden; // если используете на сайте position: sticky - уберите эту настройку
+}
+
+.main {
+  flex-grow: 1;
 }
 
 .is-hidden {
@@ -108,12 +116,4 @@ a {
 
 .page--ios .dis-scroll {
   position: relative;
-}
-
-.link {
-  transition: opacity var(--transition);
-
-  &:hover {
-    opacity: .8;
-  }
 }
