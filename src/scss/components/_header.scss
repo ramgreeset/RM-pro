@@ -70,11 +70,13 @@
     @include scrollbar;
   }
 
-  &__catalog-item {}
-
   &__catalog-link {
     color: var(--dark);
     font-size: 14px;
     font-weight: 500;  
   }
 }
+.logo {
+  transform: translate(0px, 5px);
+}
+
