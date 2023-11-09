@@ -1,0 +1,16 @@
+.welcome-products {
+    padding: 40px 0 40px 0;
+
+    &__products {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    &__inner {
+    }
+
+    &__title {
+        margin: 0 0 40px 0;
+    }
+
+}

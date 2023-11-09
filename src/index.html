@@ -8,7 +8,7 @@
     @include('partials/header.html')
     <main class="main">
 
-      <!-- <section class="banner">
+      <section class="banner">
         <div class="container">
           <div class="banner__inner">
             <img src="img/ban.webp" alt="" class="banner__slide-img">
@@ -18,10 +18,6 @@
 
               <div class="banner__swiper-wrapper">
 
-                <div class="banner__swiper-slide">Slide 1</div>
-                <div class="banner__swiper-slide">Slide 2</div>
-                <div class="banner__swiper-slide">Slide 3</div>
-                ...
               </div>
 
               <div class="banner__swiper-pagination"></div>
@@ -34,12 +30,12 @@
             </div>
 
             <div class="banner__action">
-              <img src="img/eve.jpg" alt="" class="banner__action-img">
+              <!-- <img src="img/eve.jpg" alt="" class="banner__action-img"> -->
             </div>
 
           </div>
         </div>
-      </section> -->
+      </section>
       <section class="info">
         <div class="container">
           <div class="info__inner">
@@ -49,28 +45,283 @@
         </div>
       </section>
 
-      <section class="welcome-goods">
+      <section class="welcome-products">
         <div class="container">
-          <div class="welcome-goods__inner">
-            <h2 class="welcome-goods__title">ПРЕДЛОЖЕНИЕ НЕДЕЛИ</h2>
-            <div class="welcome-goods__goods">
+          <div class="welcome-products__inner">
+            <h2 class="welcome-products__title">ПРЕДЛОЖЕНИЕ НЕДЕЛИ</h2>
+            <div class="welcome-products__products">
 
               <div class="card">
-                <div class="card__container">
-                  <div class="card__inner">
-                    <div class="card__brand"></div>
-                    <div class="card__img"></div>
-                    <div class="card__goods-code"></div>
-                    <div class="card__goods-title"></div>
-                    <div class="card__presence"> </div>
-                    <div class="card__buy">
-                      <div class="card__wholesale-price"></div>
-                      <div class="card__retail-price"></div>
-                    </div>
-
+                <div class="card__inner">
+                  <div class="card__brand">
+                    <img src="img/brand.svg/remix.svg" class="card__brand-img" alt="">
+                  </div>
+                  <div class="card__products-img">
+                    <img src="img/products/REMIX/remix.jpg" alt="" class="card__img">
+                  </div>
+                  <div class="card__products-code">Артикул: 24536</div>
+                  <div class="card__products-title">Компонент краски (металлик) MiraMix Medium Silver 3,75л (Средний
+                    серебристый)</div>
+                </div>
+                <div class="card__buy">
+                  <div class="card__buy-inner">
+                    <div class="card__presence">В наличии</div>
+                    <div class="card__wholesale-price">5200р (от 50шт)</div>
+                    <div class="card__retail-price">5600Р</div>
+                  </div>
+                  <div class="card__cart-block">
+                    <button class="card__add-btn">
+                      <svg class="header__cart-icon">
+                        <use href="img/sprite.svg#cart"></use>
+                      </svg>
+                    </button>
                   </div>
                 </div>
               </div>
+              <div class="card">
+                <div class="card__inner">
+                  <div class="card__brand">
+                    <img src="img/brand.svg/remix.svg" class="card__brand-img" alt="">
+                  </div>
+                  <div class="card__products-img">
+                    <img src="img/products/REMIX/remix.jpg" alt="" class="card__img">
+                  </div>
+                  <div class="card__products-code">Артикул: 24536</div>
+                  <div class="card__products-title">Компонент краски (металлик) MiraMix Medium Silver 3,75л (Средний
+                    серебристый)</div>
+                </div>
+                <div class="card__buy">
+                  <div class="card__buy-inner">
+                    <div class="card__presence">В наличии</div>
+                    <div class="card__wholesale-price">5200р (от 50шт)</div>
+                    <div class="card__retail-price">5600Р</div>
+                  </div>
+                  <div class="card__cart-block">
+                    <button class="card__add-btn">
+                      <svg class="header__cart-icon">
+                        <use href="img/sprite.svg#cart"></use>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card__inner">
+                  <div class="card__brand">
+                    <img src="img/brand.svg/remix.svg" class="card__brand-img" alt="">
+                  </div>
+                  <div class="card__products-img">
+                    <img src="img/products/REMIX/remix.jpg" alt="" class="card__img">
+                  </div>
+                  <div class="card__products-code">Артикул: 24536</div>
+                  <div class="card__products-title">Компонент краски (металлик) MiraMix Medium Silver 3,75л (Средний
+                    серебристый)</div>
+                </div>
+                <div class="card__buy">
+                  <div class="card__buy-inner">
+                    <div class="card__presence">В наличии</div>
+                    <div class="card__wholesale-price">5200р (от 50шт)</div>
+                    <div class="card__retail-price">5600Р</div>
+                  </div>
+                  <div class="card__cart-block">
+                    <button class="card__add-btn">
+                      <svg class="header__cart-icon">
+                        <use href="img/sprite.svg#cart"></use>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card__inner">
+                  <div class="card__brand">
+                    <img src="img/brand.svg/remix.svg" class="card__brand-img" alt="">
+                  </div>
+                  <div class="card__products-img">
+                    <img src="img/products/REMIX/remix.jpg" alt="" class="card__img">
+                  </div>
+                  <div class="card__products-code">Артикул: 24536</div>
+                  <div class="card__products-title">Компонент краски (металлик) MiraMix Medium Silver 3,75л (Средний
+                    серебристый)</div>
+                </div>
+                <div class="card__buy">
+                  <div class="card__buy-inner">
+                    <div class="card__presence">В наличии</div>
+                    <div class="card__wholesale-price">5200р (от 50шт)</div>
+                    <div class="card__retail-price">5600Р</div>
+                  </div>
+                  <div class="card__cart-block">
+                    <button class="card__add-btn">
+                      <svg class="header__cart-icon">
+                        <use href="img/sprite.svg#cart"></use>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card__inner">
+                  <div class="card__brand">
+                    <img src="img/brand.svg/remix.svg" class="card__brand-img" alt="">
+                  </div>
+                  <div class="card__products-img">
+                    <img src="img/products/REMIX/remix.jpg" alt="" class="card__img">
+                  </div>
+                  <div class="card__products-code">Артикул: 24536</div>
+                  <div class="card__products-title">Компонент краски (металлик) MiraMix Medium Silver 3,75л (Средний
+                    серебристый)</div>
+                </div>
+                <div class="card__buy">
+                  <div class="card__buy-inner">
+                    <div class="card__presence">В наличии</div>
+                    <div class="card__wholesale-price">5200р (от 50шт)</div>
+                    <div class="card__retail-price">5600Р</div>
+                  </div>
+                  <div class="card__cart-block">
+                    <button class="card__add-btn">
+                      <svg class="header__cart-icon">
+                        <use href="img/sprite.svg#cart"></use>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card__inner">
+                  <div class="card__brand">
+                    <img src="img/brand.svg/remix.svg" class="card__brand-img" alt="">
+                  </div>
+                  <div class="card__products-img">
+                    <img src="img/products/REMIX/remix.jpg" alt="" class="card__img">
+                  </div>
+                  <div class="card__products-code">Артикул: 24536</div>
+                  <div class="card__products-title">Компонент краски (металлик) MiraMix Medium Silver 3,75л (Средний
+                    серебристый)</div>
+                </div>
+                <div class="card__buy">
+                  <div class="card__buy-inner">
+                    <div class="card__presence">В наличии</div>
+                    <div class="card__wholesale-price">5200р (от 50шт)</div>
+                    <div class="card__retail-price">5600Р</div>
+                  </div>
+                  <div class="card__cart-block">
+                    <button class="card__add-btn">
+                      <svg class="header__cart-icon">
+                        <use href="img/sprite.svg#cart"></use>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card__inner">
+                  <div class="card__brand">
+                    <img src="img/brand.svg/remix.svg" class="card__brand-img" alt="">
+                  </div>
+                  <div class="card__products-img">
+                    <img src="img/products/REMIX/remix.jpg" alt="" class="card__img">
+                  </div>
+                  <div class="card__products-code">Артикул: 24536</div>
+                  <div class="card__products-title">Компонент краски (металлик) MiraMix Medium Silver 3,75л (Средний
+                    серебристый)</div>
+                </div>
+                <div class="card__buy">
+                  <div class="card__buy-inner">
+                    <div class="card__presence">В наличии</div>
+                    <div class="card__wholesale-price">5200р (от 50шт)</div>
+                    <div class="card__retail-price">5600Р</div>
+                  </div>
+                  <div class="card__cart-block">
+                    <button class="card__add-btn">
+                      <svg class="header__cart-icon">
+                        <use href="img/sprite.svg#cart"></use>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card__inner">
+                  <div class="card__brand">
+                    <img src="img/brand.svg/remix.svg" class="card__brand-img" alt="">
+                  </div>
+                  <div class="card__products-img">
+                    <img src="img/products/REMIX/remix.jpg" alt="" class="card__img">
+                  </div>
+                  <div class="card__products-code">Артикул: 24536</div>
+                  <div class="card__products-title">Компонент краски (металлик) MiraMix Medium Silver 3,75л (Средний
+                    серебристый)</div>
+                </div>
+                <div class="card__buy">
+                  <div class="card__buy-inner">
+                    <div class="card__presence">В наличии</div>
+                    <div class="card__wholesale-price">5200р (от 50шт)</div>
+                    <div class="card__retail-price">5600Р</div>
+                  </div>
+                  <div class="card__cart-block">
+                    <button class="card__add-btn">
+                      <svg class="header__cart-icon">
+                        <use href="img/sprite.svg#cart"></use>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card__inner">
+                  <div class="card__brand">
+                    <img src="img/brand.svg/remix.svg" class="card__brand-img" alt="">
+                  </div>
+                  <div class="card__products-img">
+                    <img src="img/products/REMIX/remix.jpg" alt="" class="card__img">
+                  </div>
+                  <div class="card__products-code">Артикул: 24536</div>
+                  <div class="card__products-title">Компонент краски (металлик) MiraMix Medium Silver 3,75л (Средний
+                    серебристый)</div>
+                </div>
+                <div class="card__buy">
+                  <div class="card__buy-inner">
+                    <div class="card__presence">В наличии</div>
+                    <div class="card__wholesale-price">5200р (от 50шт)</div>
+                    <div class="card__retail-price">5600Р</div>
+                  </div>
+                  <div class="card__cart-block">
+                    <button class="card__add-btn">
+                      <svg class="header__cart-icon">
+                        <use href="img/sprite.svg#cart"></use>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card__inner">
+                  <div class="card__brand">
+                    <img src="img/brand.svg/remix.svg" class="card__brand-img" alt="">
+                  </div>
+                  <div class="card__products-img">
+                    <img src="img/products/REMIX/remix.jpg" alt="" class="card__img">
+                  </div>
+                  <div class="card__products-code">Артикул: 24536</div>
+                  <div class="card__products-title">Компонент краски (металлик) MiraMix Medium Silver 3,75л (Средний
+                    серебристый)</div>
+                </div>
+                <div class="card__buy">
+                  <div class="card__buy-inner">
+                    <div class="card__presence">В наличии</div>
+                    <div class="card__wholesale-price">5200р (от 50шт)</div>
+                    <div class="card__retail-price">5600Р</div>
+                  </div>
+                  <div class="card__cart-block">
+                    <button class="card__add-btn">
+                      <svg class="header__cart-icon">
+                        <use href="img/sprite.svg#cart"></use>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+
             </div>
           </div>
         </div>

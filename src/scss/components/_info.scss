@@ -1,5 +1,6 @@
 .info {
-  height: 94px;
+  min-height: 50px;
+  padding: 20px 0 20px 0px;
 
   &__inner {
     color: #717171;
@@ -10,5 +11,7 @@
     line-height: normal;
   }
 
-  &__text {}
+  &__text {
+    margin: 0;
+  }
 }
