@@ -7,15 +7,75 @@
   <div class="site-container">
     @include('partials/header.html')
     <main class="main">
-      <section>
+
+      <!-- <section class="banner">
         <div class="container">
-          <h1>Content</h1>
-          <!--      <picture>-->
-          <!--        <source srcset="img/cover.webp" type="image/webp">-->
-          <!--        <img loading="lazy" src="img/cover.jpg" class="image" width="300" height="300" alt="Обложка канала MaxGraph">-->
-          <!--      </picture>-->
+          <div class="banner__inner">
+            <img src="img/ban.webp" alt="" class="banner__slide-img">
+
+
+            <div class="banner__swiper">
+
+              <div class="banner__swiper-wrapper">
+
+                <div class="banner__swiper-slide">Slide 1</div>
+                <div class="banner__swiper-slide">Slide 2</div>
+                <div class="banner__swiper-slide">Slide 3</div>
+                ...
+              </div>
+
+              <div class="banner__swiper-pagination"></div>
+
+
+              <div class="banner__swiper-button-prev"></div>
+              <div class="banner__swiper-button-next"></div>
+
+              <div class="banner__swiper-scrollbar"></div>
+            </div>
+
+            <div class="banner__action">
+              <img src="img/eve.jpg" alt="" class="banner__action-img">
+            </div>
+
+          </div>
+        </div>
+      </section> -->
+      <section class="info">
+        <div class="container">
+          <div class="info__inner">
+            <p class="info__text">Комплексные поставки расходных материалов и <br> оборудования для кузовного ремонта и
+              детейлинга.</p>
+          </div>
         </div>
       </section>
+
+      <section class="welcome-goods">
+        <div class="container">
+          <div class="welcome-goods__inner">
+            <h2 class="welcome-goods__title">ПРЕДЛОЖЕНИЕ НЕДЕЛИ</h2>
+            <div class="welcome-goods__goods">
+
+              <div class="card">
+                <div class="card__container">
+                  <div class="card__inner">
+                    <div class="card__brand"></div>
+                    <div class="card__img"></div>
+                    <div class="card__goods-code"></div>
+                    <div class="card__goods-title"></div>
+                    <div class="card__presence"> </div>
+                    <div class="card__buy">
+                      <div class="card__wholesale-price"></div>
+                      <div class="card__retail-price"></div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
     </main>
     @include('partials/footer.html')
     <!-- @include('html/h1.html') пример include -->

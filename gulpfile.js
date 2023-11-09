@@ -216,7 +216,7 @@ const resources = () => {
 }
 
 const images = () => {
-  return src([`${paths.srcImgFolder}/**/**.{jpg,jpeg,png,svg}`])
+  return src([`${paths.srcImgFolder}/**/**.{jpg,jpeg,png,svg,webp}`])
     .pipe(gulpif(isProd, image([
       image.mozjpeg({
         quality: 80,
@@ -230,7 +230,7 @@ const images = () => {
 };
 
 const webpImages = () => {
-  return src([`${paths.srcImgFolder}/**/**.{jpg,jpeg,png}`])
+  return src([`${paths.srcImgFolder}/**/**.{jpg,jpeg,png,webp}`])
     .pipe(webp())
     .pipe(dest(paths.buildImgFolder))
 };
@@ -260,8 +260,8 @@ const watchFiles = () => {
   watch(`${paths.srcPartialsFolder}/*.html`, htmlInclude);
   watch(`${srcFolder}/*.html`, htmlInclude);
   watch(`${paths.resourcesFolder}/**`, resources);
-  watch(`${paths.srcImgFolder}/**/**.{jpg,jpeg,png,svg}`, images);
-  watch(`${paths.srcImgFolder}/**/**.{jpg,jpeg,png}`, webpImages);
+  watch(`${paths.srcImgFolder}/**/**.{jpg,jpeg,png,svg,webp}`, images);
+  watch(`${paths.srcImgFolder}/**/**.{jpg,jpeg,png,webp}`, webpImages);
   watch(paths.srcSvg, svgSprites);
 }
 
