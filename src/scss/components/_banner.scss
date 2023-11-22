@@ -11,13 +11,18 @@
   &__swiper-container {
     margin-left: 0px;
     border-radius: 20px;
-    height: 310px;
+    height: 340px;
+  }
+  &__swiper-wrapper {
+    height: 100%;
   }
   
   &__slide {
-    padding: 10px;
+    height: 100%;
   }
   &__slide-img{
+    height: 100%;
+    width: 100%;
     object-fit: cover;
     object-position: center;
   }

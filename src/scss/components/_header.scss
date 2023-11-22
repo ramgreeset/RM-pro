@@ -41,7 +41,11 @@
     width: 24px;
     height: 24px;
   }
-
+  &__cart-btn {
+    display: flex;
+    align-items: center;
+  }
+  
   &__cart-info {
     width: 100%;
     display: flex;
@@ -53,10 +57,10 @@
     border-left: 2px solid var(--border);
   }
 
-
   &__catalog {
     white-space: nowrap;
     display: flex;
+    justify-content: space-between;
     margin: 0;
     padding: 0;
     list-style: none;

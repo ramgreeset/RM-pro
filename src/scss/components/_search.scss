@@ -27,4 +27,13 @@
     width: 16px;
     height: 16px;
   }
+
+  &__burger-btn {
+    border: none;
+    display: block;
+    position: relative;
+    width: 48px;
+    height: 100%;
+  }
+
 }
